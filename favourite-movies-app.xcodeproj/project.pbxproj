@@ -12,6 +12,12 @@
 		BEDE461D20F62834003DF156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDE461B20F62834003DF156 /* Main.storyboard */; };
 		BEDE461F20F62837003DF156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDE461E20F62837003DF156 /* Assets.xcassets */; };
 		BEDE462220F62837003DF156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDE462020F62837003DF156 /* LaunchScreen.storyboard */; };
+		BEDE462A20F62AB2003DF156 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE462920F62AB2003DF156 /* CustomTableViewCell.swift */; };
+		BEDE462C20F62E52003DF156 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE462B20F62E52003DF156 /* Movie.swift */; };
+		BEDE462E20F64F80003DF156 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE462D20F64F80003DF156 /* SearchViewController.swift */; };
+		BEDE463020F65B05003DF156 /* HttpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE462F20F65B05003DF156 /* HttpHandler.swift */; };
+		BEDE463220F65E25003DF156 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE463120F65E25003DF156 /* JSONParser.swift */; };
+		BEDE463420F66018003DF156 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDE463320F66018003DF156 /* MovieDataProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		BEDE461E20F62837003DF156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDE462120F62837003DF156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDE462320F62837003DF156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDE462920F62AB2003DF156 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		BEDE462B20F62E52003DF156 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BEDE462D20F64F80003DF156 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BEDE462F20F65B05003DF156 /* HttpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHandler.swift; sourceTree = "<group>"; };
+		BEDE463120F65E25003DF156 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		BEDE463320F66018003DF156 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				BEDE461E20F62837003DF156 /* Assets.xcassets */,
 				BEDE462020F62837003DF156 /* LaunchScreen.storyboard */,
 				BEDE462320F62837003DF156 /* Info.plist */,
+				BEDE462920F62AB2003DF156 /* CustomTableViewCell.swift */,
+				BEDE462B20F62E52003DF156 /* Movie.swift */,
+				BEDE462D20F64F80003DF156 /* SearchViewController.swift */,
+				BEDE462F20F65B05003DF156 /* HttpHandler.swift */,
+				BEDE463120F65E25003DF156 /* JSONParser.swift */,
+				BEDE463320F66018003DF156 /* MovieDataProcessor.swift */,
 			);
 			path = "favourite-movies-app";
 			sourceTree = "<group>";
@@ -135,7 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEDE462E20F64F80003DF156 /* SearchViewController.swift in Sources */,
+				BEDE462A20F62AB2003DF156 /* CustomTableViewCell.swift in Sources */,
+				BEDE463220F65E25003DF156 /* JSONParser.swift in Sources */,
 				BEDE461A20F62834003DF156 /* ViewController.swift in Sources */,
+				BEDE462C20F62E52003DF156 /* Movie.swift in Sources */,
+				BEDE463420F66018003DF156 /* MovieDataProcessor.swift in Sources */,
+				BEDE463020F65B05003DF156 /* HttpHandler.swift in Sources */,
 				BEDE461820F62834003DF156 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
